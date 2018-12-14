@@ -15,11 +15,17 @@ div{
     width: 300px;
     padding: 100px;
     border: 1px solid gray;
+    border-radius: 2px;
     
 }
 button{
     color: blue;
+    padding: 14px 40px;
+    
 }
 #demo{
     color:black;
+}
+input{
+    padding: 8px 10px;
 }
