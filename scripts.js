@@ -28,7 +28,7 @@ var sideSum1 = function(firstvalue, secondvalue) {
     }
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
-        text="Scalene Triangle."
+        text=array[2];
     }
     //Scalene Triangle
 
