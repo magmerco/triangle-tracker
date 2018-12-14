@@ -5,6 +5,9 @@ h1{
     color: red;
     text-align: center;
 }
+div{
+    color: maroon;
+}
 #form{
     margin: 20px;
     width: 200px;
