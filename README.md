@@ -11,9 +11,9 @@ Based on the functionality of the application,the key points are:
 Install triangle-tracker-js by cloning this repository:
 https://github.com/magmerco/triangle-tracker.git
 ## BDD
-*If all the sides are equal is an equilateral triangle
-*If two of the sides are equal,is an isiscele triangle
-*If all the side are not equal and the sum of any two side of the triangle is greater than the third side,is a scalene triangle
+* If all the sides are equal is an equilateral triangle
+* If two of the sides are equal,is an isiscele triangle
+* If all the side are not equal and the sum of any two side of the triangle is greater than the third side,is a scalene triangle
 *Else if the sum of any two sides of the triangle is equal or less than the third remaining side,then it is not a triangle
 ## Technologies Used
 - HTML
