@@ -1,39 +1,46 @@
-var sideSum1 = function(firstvalue, secondvalue) {
-    return firstvalue + secondvalue;
-   };
- 
-   var sideSum2 = function(secondvalue, thirdvalue) {
-    return secondvalue + thirdvalue;
-   };
- 
-   var sideSum3 = function(firstvalue, thirdvalue) {
-    return firstvalue + thirdvalue;
-   };
-   function check(){
-    var firstvalue=document.getElementById('one').value;
-    var secondvalue=document.getElementById('two').value;
-    var thirdvalue=document.getElementById('three').value;
+function check(){
+    var firstvalue=parseInt(document.getElementById('one').value);
+    var secondvalue=parseInt(document.getElementById('two').value);
+    var thirdvalue=parseInt(document.getElementById('three').value);
+    var array=[firstvalue,secondvalue,thirdvalue];
     var text;
-     if(sideSum1(firstvalue,secondvalue) <= thirdvalue || sideSum2(secondvalue,thirdvalue) <= firstvalue || sideSum3(firstvalue,thirdvalue) <= secondvalue){
-        text="it is not a triangle"
+    if(firstvalue <= 0|| secondvalue <= 0 || thirdvalue <=0 ){
+        text="Undefined"
     }
-    else if(firstvalue === secondvalue && secondvalue === thirdvalue){
+    else if (
+        (firstvalue + secondvalue <= thirdvalue &&
+          secondvalue + firstvalue <= thirdvalue)||
+            (firstvalue + thirdvalue <= secondvalue &&
+            thirdvalue + firstvalue <= secondvalue) ||
+            (secondvalue + thirdvalue <= firstvalue && thirdvalue + secondvalue <= firstvalue)
+         ) {
+        text = "Not a Triangle.";
+      }
+    // Not a triangle
+    else if(firstvalue === secondvalue &&
+        firstvalue===thirdvalue &&
+        secondvalue === thirdvalue){
         text = "Equilaterial Triangle.";
     }
      //Equivalent Triangle
-
-    else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
-        text="Isoscele Triangle.";
+ 
+    else if(firstvalue===secondvalue ||
+        firstvalue===thirdvalue ||
+        secondvalue===thirdvalue) {
+        text="Isosceles Triangle.";
     }
     //Isoscele Triangle
-    else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
+    else if(firstvalue!==secondvalue &&
+         firstvalue!==thirdvalue &&
+         secondvalue!==thirdvalue){
         text="Scalene Triangle."
     }
     //Scalene Triangle
-
-
-   //  else{
-   //      text = "Not a Triangle.";
-   //  }
-    document.getElementById('demo').innerHTML = text;
-  }
+ 
+    else{
+        text = "Error.";
+    }
+ 
+    document.getElementById('demo').innerHTML="The side of trianges are["+array+"]"+" is ";
+    document.getElementById('demo').innerHTML += text;
+}
