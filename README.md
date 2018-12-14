@@ -1,5 +1,5 @@
 # Triangle-tracker
-#### This project ia about building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.           Friday,14th december 2018
+#### This project ia about building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all.         Friday,14th december 2018
 #### By **Zaninka Magali**
 ## Description
 Based on the functionality of the application,the key points are:
@@ -14,7 +14,7 @@ https://github.com/magmerco/triangle-tracker.git
 * If all the sides are equal is an equilateral triangle
 * If two of the sides are equal,is an isiscele triangle
 * If all the side are not equal and the sum of any two side of the triangle is greater than the third side,is a scalene triangle
-*Else if the sum of any two sides of the triangle is equal or less than the third remaining side,then it is not a triangle
+* Else if the sum of any two sides of the triangle is equal or less than the third remaining side,then it is not a triangle
 ## Technologies Used
 - HTML
 - JavaScript
@@ -25,3 +25,4 @@ If you have some issues running this application,contact me at magali@moringasch
 MIT license
 Copyright (c) 2018 **Zaninka Magali**
   
+
