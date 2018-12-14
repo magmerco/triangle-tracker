@@ -24,7 +24,7 @@ var sideSum1 = function(firstvalue, secondvalue) {
      //Equivalent Triangle
 
     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
-        text="Isoscele Triangle.";
+        text="array[1];
     }
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
