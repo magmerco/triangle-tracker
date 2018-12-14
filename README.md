@@ -1,5 +1,6 @@
 # Triangle-tracker
-#### This project ia about building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all, Friday,14th december 2018
+#### This project ia about building an application that will help us know whether a triangle is isosceles, equilateral, scalene or NOT a triangle at all, 
+Friday,14th december 2018
 #### By **Zaninka Magali**
 ## Description
 Based on the functionality of the application,the key points are:
@@ -23,5 +24,5 @@ https://github.com/magmerco/triangle-tracker.git
 If you have some issues running this application,contact me at magali@moringaschool.slack.com
 ### License
 MIT license
-Copyright (c) 2018 **Zaninka Magali}**
+Copyright (c) 2018 **Zaninka Magali**
   
