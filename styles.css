@@ -2,16 +2,23 @@ body{
     background-color: skyblue;
 }
 h1{
-    color: red;
+    color:blueviolet;
     text-align: center;
 }
 div{
-    color: maroon;
+    color:black;
 }
 #form{
+    background-color:gray;
     margin: 20px;
-    width: 200px;
-    padding: 50px;
+    width: 300px;
+    padding: 100px;
     border: 1px solid gray;
     float: left;
+}
+button{
+    color: blue;
+}
+#demo{
+    color:black;
 }
