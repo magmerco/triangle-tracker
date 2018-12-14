@@ -10,7 +10,7 @@ var sideSum1 = function(firstvalue, secondvalue) {
     return firstvalue + thirdvalue;
    };
    function check(){
-       var array=['equilateral','isoscele','scalene']
+       var array=['Equilateral','Isoscele','Scalene']
     var firstvalue=document.getElementById('one').value;
     var secondvalue=document.getElementById('two').value;
     var thirdvalue=document.getElementById('three').value;
@@ -24,7 +24,7 @@ var sideSum1 = function(firstvalue, secondvalue) {
      //Equivalent Triangle
 
     else if(firstvalue===secondvalue || firstvalue===thirdvalue || secondvalue===thirdvalue) {
-        text="array[1];
+        text=array[1];
     }
     //Isoscele Triangle
     else if(firstvalue!==secondvalue && firstvalue!==thirdvalue &&secondvalue!==thirdvalue){
