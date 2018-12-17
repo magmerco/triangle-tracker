@@ -9,8 +9,8 @@ Based on the functionality of the application,the key points are:
 * Most importantly,if the sum of any two sides of the triangle is equal to or less than the third remaining side,then a triangle CANNOT be formed using those values.
 ## Setup/Installation Requirements
 Install triangle-tracker-js by cloning this repository:
-https://github.com/magmerco/triangle-tracker.git
-The link to live sit of GitHub pages:
+https://github.com/magmerco/triangle-tracker.git,
+the link to live sit of GitHub pages:
 https://magmerco.github.io/triangle-tracker/index.html
 ## BDD
 * If all the sides are equal is an equilateral triangle
