@@ -10,6 +10,8 @@ Based on the functionality of the application,the key points are:
 ## Setup/Installation Requirements
 Install triangle-tracker-js by cloning this repository:
 https://github.com/magmerco/triangle-tracker.git
+The link to live sit of GitHub pages:
+https://magmerco.github.io/triangle-tracker/index.html
 ## BDD
 * If all the sides are equal is an equilateral triangle
 * If two of the sides are equal,is an isiscele triangle
@@ -25,3 +27,4 @@ If you have some issues running this application,contact me at magali@moringasch
 MIT license
 Copyright (c) 2018 **Zaninka Magali**
   
+
